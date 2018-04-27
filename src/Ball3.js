@@ -15,77 +15,77 @@ export default class Ball2 extends Component {
                     x: 100,
                     y: 600
                 },
-                duration: 1000
+                duration: 2000
             }),
             Animated.timing(this.position, {
                 toValue: {
                     x: 200,
                     y: 600
                 },
-                duration: 1000
+                duration: 2000
             }),
             Animated.timing(this.position, {
                 toValue: {
                     x: 50,
                     y: 50
                 },
-                duration: 1000
+                duration: 2000
             }),
             Animated.timing(this.position, {
                 toValue: {
                     x: 300,
                     y: 10
                 },
-                duration: 1000
+                duration: 2000
             }),
             Animated.timing(this.position, {
                 toValue: {
                     x: 200,
                     y: 100
                 },
-                duration: 1000
+                duration: 2000
             }),
             Animated.timing(this.position, {
                 toValue: {
                     x: 250,
                     y: 650
                 },
-                duration: 1000
+                duration: 2000
             }),
             Animated.timing(this.position, {
                 toValue: {
                     x: 50,
                     y: 650
                 },
-                duration: 1000
+                duration: 2000
             }),
             Animated.timing(this.position, {
                 toValue: {
                     x: 300,
                     y: 100
                 },
-                duration: 1000
+                duration: 2000
             }),
             Animated.timing(this.position, {
                 toValue: {
                     x: 50,
                     y: 650
                 },
-                duration: 1000
+                duration: 2000
             }),
             Animated.timing(this.position, {
                 toValue: {
                     x: 100,
                     y: 100
                 },
-                duration: 1000
+                duration: 2000
             }),
             Animated.timing(this.position, {
                 toValue: {
                     x: 200,
                     y: 600
                 },
-                duration: 1000
+                duration: 2000
             })
 
         ]).start(() => {
